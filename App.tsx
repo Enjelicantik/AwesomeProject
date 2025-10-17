@@ -1,14 +1,12 @@
 import React, {useState} from "react";
 import { View, Text, Button,} from 'react-native';
+import Tourist from "./TouristDestination/tourisdestination"
 
 const Counter = () => {
   const [count, setCount] = useState(0);
 
   return (
-    <View>
-      <Text>Count: {count}</Text>
-      <Button title="Increase" onPress={() => setCount(count + 1)} />
-    </View>
+    <Tourist />
   );
 };
 
