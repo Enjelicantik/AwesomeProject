@@ -6,7 +6,7 @@ import {
   TouchableOpacity,
   ImageBackground,
   StatusBar,
-} from "react-native";
+} from "react-native" ; 
 
 export default function HomeScreen() {
   return (
