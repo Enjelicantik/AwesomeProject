@@ -1,12 +1,12 @@
-import React, {useState} from "react";
-import { View, Text, Button,} from 'react-native';
-import Tourist from "./TouristDestination/tourisdestination"
+import React from "react";
+import Sesi6 from "./sesi6/App";
+
+// import Tourist from "./TouristDestination/tourisdestination"
 
 const Counter = () => {
-  const [count, setCount] = useState(0);
 
   return (
-    <Tourist />
+    <Sesi6 />
   );
 };
 
